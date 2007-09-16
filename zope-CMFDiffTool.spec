@@ -12,9 +12,9 @@
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Summary:    A new look for Plone 3
+Summary:    Generation of changesets between objects
 License:    GPL
-Group:      Generation of changesets between objects
+Group:      System/Servers
 URL:        http://plone.org/products/%{product}
 Source:     http://plone.org/products/%{product}/releases/%{version}/%{product}-%{bad_version}.tgz
 Requires:   zope >= %{zope_minver}
