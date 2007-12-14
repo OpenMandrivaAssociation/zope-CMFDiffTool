@@ -1,7 +1,7 @@
 %define Product CMFDiffTool
 %define product cmfdifftool
 %define name    zope-%{Product}
-%define version 0.3.4
+%define version 0.3.5
 %define bad_version %(echo %{version} | sed -e 's/\\./-/g')
 %define release %mkrel 1
 
@@ -16,7 +16,7 @@ Summary:    Generation of changesets between objects
 License:    GPL
 Group:      System/Servers
 URL:        http://plone.org/products/%{product}
-Source:     http://plone.org/products/%{product}/releases/%{version}/%{product}-%{bad_version}.tgz
+Source:     http://plone.org/products/%{product}/releases/%{version}/%{Product}-%{version}.tgz
 Requires:   zope >= %{zope_minver}
 BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
