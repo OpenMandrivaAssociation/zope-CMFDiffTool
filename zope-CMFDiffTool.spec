@@ -3,7 +3,7 @@
 %define name    zope-%{Product}
 %define version 0.3.5
 %define bad_version %(echo %{version} | sed -e 's/\\./-/g')
-%define release %mkrel 4
+%define release %mkrel 5
 
 %define zope_minver     2.7
 %define zope_home       %{_prefix}/lib/zope
